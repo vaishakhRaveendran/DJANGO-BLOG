@@ -1,2 +1,2 @@
-# DJANGO-BLOG
+# BLOGIFyy
 Try writing Blogss....
