@@ -11,3 +11,4 @@ Migrations allows the user to make changes to the database even after created an
 then we would have to run complex sql code instead to change the schema...(makemaigrations->migrate)
 
 shell >>>>>>>>>> Interact with database directly...
+Register the models in admin.py to show up in the admin panel

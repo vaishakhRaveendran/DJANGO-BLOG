@@ -9,3 +9,6 @@ class Post(models.Model):
     #Users and posts are having a one to many relationship....
     author=models.ForeignKey(User,on_delete=models.CASCADE)
 
+    def __str__(self):
+        return self.title
+
