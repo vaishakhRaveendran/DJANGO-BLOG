@@ -3,3 +3,11 @@ Then you would create a new app
 you need to add app blog.Blogconfig in the project dajango_blog.setting files
 You also need to add the urls in django_blog and blog urls file
 Inside the template folder of each app you need to create a subdirectory of same app name......
+makemigrations just detect changes and prepare django for updating the table..
+migrate command will cause set up the auth table.
+createsuperuser will create a new super user..('vaishakhraveendran' ,'l@xmi2421')
+staffuser status would give the user permission to log in to admin panel...
+Migrations allows the user to make changes to the database even after created and values inserted.If we dont got provision for migrations
+then we would have to run complex sql code instead to change the schema...(makemaigrations->migrate)
+
+shell >>>>>>>>>> Interact with database directly...
