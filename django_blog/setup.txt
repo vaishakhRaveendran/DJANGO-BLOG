@@ -12,3 +12,8 @@ then we would have to run complex sql code instead to change the schema...(makem
 
 shell >>>>>>>>>> Interact with database directly...
 Register the models in admin.py to show up in the admin panel
+
+
+#create new app for user registerations....
+When your website is used by multiple people you want to register them but not via the admin page instead through
+the front end stuff.
