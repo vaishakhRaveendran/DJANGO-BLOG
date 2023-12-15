@@ -1,0 +1,4 @@
+#How django does this
+Django comes with a built-in authentication system that includes a default user model.
+This default user model is part of the django.contrib.auth module and is designed to handle user-related functionalities such as user registration,
+login, and password management.
