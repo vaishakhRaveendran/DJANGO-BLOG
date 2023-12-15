@@ -1,0 +1,20 @@
+## How HTTP works.................
+In a Django web application, functions (view functions) associated with URLs are invoked in response to HTTP requests. Here's a breakdown of when these functions are invoked:
+   Typing a URL or Clicking a Link (GET Request):
+        When you type a URL in the browser's address bar or click on a link, the browser sends a GET request to the server.
+        The server's URL routing mechanism identifies the corresponding view function for the requested URL.
+        The associated view function is invoked to handle the GET request.
+
+    Submitting a Form (POST Request):
+        When you submit a form on a webpage, the browser sends a POST request to the server.
+        The URL specified in the form's action attribute determines the view function to be invoked.
+        The associated view function is invoked to handle the POST request.
+
+In Django, when you submit a form, the data is typically accessible inside the view function through the request object.
+The method of accessing the form data  depends on whether the form was submitted using the GET or POST method.
+In Django, the request object is an instance of the django.http.HttpRequest class. It represents the HTTP request made by the client (e.g., a web browser) to the Django server.
+The request object contains information about the request, including headers, method (GET, POST, etc.), URL, and, importantly, any data submitted with the request, such as form data.
+
+request.method: This attribute holds the HTTP method used for the request (e.g., 'GET' or 'POST'). You can use this to determine how the request was made.
+request.GET: This attribute is a dictionary-like object containing the data sent with the request when using the GET method. It allows you to access form data or query parameters.
+request.POST: This attribute is a dictionary-like object containing the data sent with the request when using the POST method. It allows you to access form data submitted via a POST request.
