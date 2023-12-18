@@ -18,3 +18,5 @@ The request object contains information about the request, including headers, me
 request.method: This attribute holds the HTTP method used for the request (e.g., 'GET' or 'POST'). You can use this to determine how the request was made.
 request.GET: This attribute is a dictionary-like object containing the data sent with the request when using the GET method. It allows you to access form data or query parameters.
 request.POST: This attribute is a dictionary-like object containing the data sent with the request when using the POST method. It allows you to access form data submitted via a POST request.
+
+#How http is a application layer protocol
